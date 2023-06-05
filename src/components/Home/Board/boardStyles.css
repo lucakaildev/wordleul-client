@@ -1,0 +1,117 @@
+.board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.success-popup {
+    background-color: rgba(161, 184, 173, 0.767);
+    opacity: 100%;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 21rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    animation: drop 2s ease forwards;
+    position: absolute
+}
+
+.dictionary-popup {
+    background-color: rgba(161, 184, 173, 0.767);
+    opacity: 100%;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 21rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    animation: drop 2s ease forwards;
+    position: absolute
+}
+
+@keyframes drop {
+    0%{}
+    50%{}
+    70%{transform: translateY(500px); opacity: 100%;}
+    80%{opacity: 50%;}
+    100%{transform: translateY(450px); opacity: 0%;}
+    
+}
+
+.row {
+    display: flex;
+}
+
+.letter {
+    background-color: #000;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.correctPos {
+    background-color: rgb(17, 170, 96);
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.otherPos {
+    background-color: rgb(209, 207, 76);
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.notPresent {
+    background-color: rgb(62, 59, 59);
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}

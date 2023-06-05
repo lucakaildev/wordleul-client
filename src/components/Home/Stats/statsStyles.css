@@ -1,0 +1,225 @@
+.modal-bg,
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+.modal-bg {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+}
+
+.top-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button-container {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.close-button {
+    background-color: #000;
+    font-size: 1rem;
+    color: white;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mode-button-container {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blueviolet; */
+    width: 15rem;
+}
+
+.daily-button,
+.ul-button {
+    font-family: 'Helvetica Neue', sans-serif;
+    height: 2rem;
+    width: 6.5rem;
+    /* border: none; */
+    /* border-color: none; */
+    outline: none;
+    border-radius: 3px;
+}
+
+
+.daily-button {
+    background-color: rgb(17 170 96);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* .daily-button-active {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    height: 2rem;
+    width: 6.5rem; */
+/* border: none; */
+/* border-color: none; */
+/* outline: none;
+    border-radius: 3px;
+    background-color: rgb(10, 105, 59);
+    font-family: 'Helvetica Neue', sans-serif;
+    height: 2rem;
+    width: 6.5rem; */
+/* border: none; */
+/* border-color: none; */
+/* outline: none;
+    border-radius: 3px; */
+
+/* } */
+.ul-button {
+    background-color: rgb(225, 225, 90);
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.stats-container {
+    width: 17rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    /* background-color: brown; */
+    margin-top: -20px;
+}
+
+.stats-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.stats-descriptor {
+    font-size: 0.5rem;
+}
+
+
+.stats-graph {
+    /* background-color: green; */
+    width: 25rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.over-container {
+    display: flex;
+    height: 7rem;
+    /* background-color: blue; */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 17rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.wordle-clock {
+    margin-top: -20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.remaining {
+    font-size: 2rem;
+}
+
+
+
+.share-button,
+.play-again-button {
+    font-size: 0.8rem;
+    background-color: #000;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    outline: none;
+    border-radius: 3px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    border: none;
+    width: 7.5rem;
+    height: 2rem;
+}
+
+.share-container {
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.share-button {
+    height: 3rem;
+    width: 3rem;
+}
+
+.tw-logo {
+    height: 18px;
+    width: 18px;
+}
+
+.play-again-button {
+    height: 3rem;
+    width: 15rem;
+    font-size: 0.8rem;
+    background-color: rgb(225, 225, 90);
+    color: black;
+}
+
+.stats-descriptor {
+    white-space: pre-line;
+    text-align: center;
+}
+
+.progress-container {
+    width: 95%;
+    background-color: white;
+    height: 1rem;
+}
+
+.graph-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress {
+    background-color: rgb(17 170 96);
+    height: 100%;
+}
+
+.lost {
+    background-color: rgb(225, 225, 90);
+    height: 100%;
+}

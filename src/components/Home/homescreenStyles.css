@@ -1,0 +1,83 @@
+.homescreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+
+.logo-container {
+    display: flex;
+    
+}
+
+/* .text-decoration1 {
+    background-color: rgb(17 170 96);
+    font-size:1.3em;
+} */
+.text-decoration2 {
+    background-color: rgb(225, 225, 90);
+    font-size:1.2rem;
+    color: #000;
+}
+
+h1 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+.auth-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.login-button {
+    font-family: 'Helvetica Neue', sans-serif;
+    height: 1.3rem;
+    width: 7rem;
+    background-color: rgb(17 170 96);
+    color: aliceblue;
+    border: none;
+    display: block;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    
+}
+
+
+.register-button {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: rgb(225, 225, 90);
+    height: 1.3rem;
+    color: #000;
+    border: none;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
